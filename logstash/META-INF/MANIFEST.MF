@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: runner
+Build-Jdk: 1.8.0_292
+Extension-Name: logstash
+Specification-Title: A Logstash agent to send Jenkins logs to a Logsta
+ sh indexer.
+Implementation-Title: logstash
+Implementation-Version: 2.5.0205.vd05825ed46bd
+Plugin-Class: jenkins.plugins.logstash.PluginImpl
+Group-Id: org.jenkins-ci.plugins
+Short-Name: logstash
+Long-Name: Logstash
+Url: https://wiki.jenkins.io/display/JENKINS/Logstash+Plugin
+Compatible-Since-Version: 2.0
+Minimum-Java-Version: 1.8
+Plugin-Version: 2.5.0205.vd05825ed46bd
+Hudson-Version: 2.235.1
+Jenkins-Version: 2.235.1
+Plugin-Dependencies: workflow-durable-task-step:2.35,workflow-job:2.40
+ ,workflow-step-api:2.23;resolution:=optional,apache-httpcomponents-cl
+ ient-4-api:4.5.10-2.0,credentials:2.3.14,junit:1.47,pipeline-stage-st
+ ep:2.5
+Plugin-Developers: K Jonathan Harker:jesusaurus:jesusaurus@inbox.com,R
+ usty Gerard:rgerard:rusty.gerard@gmail.com,Jakub Bocheński:jbochensk
+ i:kuba.bochenski+logstash-plugin@gmail.com
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/logstash-plugin
+
